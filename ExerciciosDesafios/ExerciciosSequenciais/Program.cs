@@ -104,11 +104,12 @@ namespace ExerciciosSequenciais
             Console.WriteLine("Entre com o valor unitário do parafuso B:");
             double valorUnitarioB = double.Parse(Console.ReadLine());
 
-            double ipi = 1.20;
+            Console.WriteLine("Entre com o percentual do IPI:");
+            double ipi = double.Parse(Console.ReadLine());
 
-            double resultadoA = valorUnitarioA * quantidadePecasA * ipi;
+            double resultadoA = valorUnitarioA * quantidadePecasA + (valorUnitarioA * quantidadePecasA * (ipi / 100));
 
-            double resultadoB = valorUnitarioB * quantidadePecasB * ipi;
+            double resultadoB = valorUnitarioB * quantidadePecasB + (valorUnitarioB * quantidadePecasB * (ipi / 100));
 
             Console.WriteLine($"O código do parafuso A é: {codigoA} e o valor total acrescedido do IPI é: {resultadoA}.");
             Console.WriteLine($"O código do parafuso B é: {codigoB} e o valor total acrescedido do IPI é: {resultadoB}.");
@@ -196,25 +197,25 @@ namespace ExerciciosSequenciais
 
             
             int quantidadeNotasDeCem = saque / 100;
-            int restanteSaque = saque - (quantidadeNotasDeCem * 100);
+            saque = saque - (quantidadeNotasDeCem * 100);
            
-            int quantidadeNotasDeCinquenta = restanteSaque / 50;
-            restanteSaque = restanteSaque - (quantidadeNotasDeCinquenta * 50);
+            int quantidadeNotasDeCinquenta = saque / 50;
+            saque = saque - (quantidadeNotasDeCinquenta * 50);
 
-            int quantidadeNotasDeVinte = restanteSaque / 20;
-            restanteSaque = restanteSaque - (quantidadeNotasDeVinte * 20);
+            int quantidadeNotasDeVinte = saque / 20;
+            saque = saque - (quantidadeNotasDeVinte * 20);
 
-            int quantidadeNotasDeDez = restanteSaque / 10;
-            restanteSaque = restanteSaque - (quantidadeNotasDeDez * 10);
+            int quantidadeNotasDeDez = saque / 10;
+            saque = saque - (quantidadeNotasDeDez * 10);
 
-            int quantidadeNotasDeCinco = restanteSaque / 5;
-            restanteSaque = restanteSaque - (quantidadeNotasDeCinco * 5);
+            int quantidadeNotasDeCinco = saque / 5;
+            saque = saque - (quantidadeNotasDeCinco * 5);
 
-            int quantidadeNotasDeDois = restanteSaque / 2;
-            restanteSaque = restanteSaque - (quantidadeNotasDeDois * 2);
+            int quantidadeNotasDeDois = saque / 2;
+            saque = saque - (quantidadeNotasDeDois * 2);
 
-            int quantidadeNotasDeUm = restanteSaque / 1;
-            restanteSaque = restanteSaque - (quantidadeNotasDeUm * 1);
+            int quantidadeNotasDeUm = saque / 1;
+            saque = saque - (quantidadeNotasDeUm * 1);
 
             Console.WriteLine($"Distribuição de notas:");
             Console.WriteLine($"{quantidadeNotasDeCem} notas de R$100,00.");
