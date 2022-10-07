@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemplosBasicosPOO", "ExemplosBasicosPOO\ExemplosBasicosPOO.csproj", "{18387134-D749-4097-84D5-447339A9577C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemplosGetSetPOO", "ExemplosGetSetPOO\ExemplosGetSetPOO.csproj", "{69F58CA3-F498-4CDF-B64A-D17FC90EAA50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{18387134-D749-4097-84D5-447339A9577C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18387134-D749-4097-84D5-447339A9577C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18387134-D749-4097-84D5-447339A9577C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F58CA3-F498-4CDF-B64A-D17FC90EAA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F58CA3-F498-4CDF-B64A-D17FC90EAA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F58CA3-F498-4CDF-B64A-D17FC90EAA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F58CA3-F498-4CDF-B64A-D17FC90EAA50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
