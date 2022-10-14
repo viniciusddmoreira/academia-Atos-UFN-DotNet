@@ -56,9 +56,7 @@
             Console.WriteLine("Apresentando classes, objetos, métodos e orientação a objetos básica:");
            
             //ExemploLampada();
-
             //ExemploAviao();
-
             ExemploContaBancaria();                    
         }
     }

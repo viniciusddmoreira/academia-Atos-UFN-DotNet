@@ -86,9 +86,7 @@
         static void Main(string[] args)
         {
             //ExemploCarro();
-
             //ExemploTemperatura();
-
             ExemploConta();
         }
     }

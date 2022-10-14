@@ -15,6 +15,7 @@
         {
             ligado = true;
         }
+
         public void Desligar()
         {
             ligado = false;
@@ -24,10 +25,12 @@
         {
             return cor;
         }
+
         public void SetCor(string cor)
         {
             this.cor = cor;
         }
+
         public bool GetLigado()
         {
             return ligado;

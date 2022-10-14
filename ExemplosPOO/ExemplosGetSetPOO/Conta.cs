@@ -12,6 +12,7 @@
             this.saldo = saldo;
             this.tipo = tipo;
         }
+
         public void Creditar(double valor)
         {
             saldo += valor;
@@ -23,6 +24,7 @@
             saldo -= valor;
             Console.WriteLine("Debitado: " + valor);
         }
+
         public double GetSaldo()
         {
             return saldo;
