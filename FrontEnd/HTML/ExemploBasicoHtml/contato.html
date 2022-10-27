@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Informações para contato com a empresa</h1>
+    <form name="contato" action="realizado.html" method="get">
+        <h5 class="labelForm">Nome:</h5> <input type="text" name="nome"/>
+        <br>
+        <h5 class="labelForm">Sobrenome:</h5> <input type="text" name="sobrenome"/>
+        <br>
+        <h5 class="labelForm">Celular:</h5> <input type="tel" name="celular"/>
+        <br>
+        <h5 class="labelForm">CPF:</h5> <input type="text" name="cpf"/>
+        <br>
+        <h5 class="labelForm">Data de nascimento:</h5> <input type="date" name="dataNascimento"/>
+        <br>
+        <h5 class="labelForm">Senha:</h5> <input type="password" name="senha"/>
+        <br>
+        <h5 class="labelForm">Sexo:</h5>
+        <input type="radio" name="sexo" value="masculino"> Masculino 
+        <input type="radio" name="sexo" value="feminino"> Feminino 
+        <input type="radio" name="sexo" value="ninf"> Prefiro não informar 
+        <br>
+        <h5 class="labelForm">Quais animais de estimação você possui em casa?</h5>
+        <input type="checkbox" name="animaisEmCasa" value="cachorro"> Cachorro 
+        <input type="checkbox" name="animaisEmCasa" value="gato"> Gato 
+        <input type="checkbox" name="animaisEmCasa" value="hamster"> Hamster
+        <br>
+        <br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>
