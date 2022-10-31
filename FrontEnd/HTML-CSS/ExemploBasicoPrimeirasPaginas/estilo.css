@@ -96,3 +96,7 @@ a.tinto {
 #c2 {
     color: darkgoldenrod;
 }
+
+#nocss {
+    text-transform: none;
+}
