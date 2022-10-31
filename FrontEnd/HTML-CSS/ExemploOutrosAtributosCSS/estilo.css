@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    border-top-width: thick;
+    border-top-style: solid;
+    border-top-color: red;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-right-width: thick;
+    border-right-style: solid;
+    border-right-color: green;
+    border-left-width: thick;
+    border-left-style: solid;
+    border-left-color: orange;
+}
+
+h4 {
+    border-width: 20px;
+    border-style: outset;
+    border-color: rgb(255, 0, 191);
+}
+
+p {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+span.bordas{
+    color: red;
+}
+
+#boxmodel {
+    background: green;
+    height: 300px;
+    margin: 10px;
+    padding: 50px;
+}
+
+#column1 {
+    float: left;
+    width: 33%;
+}
+
+#column2 {
+    float: left;
+    width: 33%;
+}
+
+#column3 {
+    float: left;
+    width: 33%;
+}
+
+div.box {
+    width: 200px;
+    height: 100px;
+    border: 5px solid black;
+    background: orange;
+    padding: 30px;
+}
+
+#box1 {
+    position: absolute;
+    top: 115%;
+    left: 2%;
+    z-index: 1;
+}
+
+#box2 {
+    position: absolute;
+    top: 125%;
+    left: 7%;
+    z-index: 2;
+}
+
+#box3 {
+    position: absolute;
+    top: 135%;
+    left: 12%;
+    z-index: 3;
+}
+
+#box4 {
+    position: absolute;
+    top: 145%;
+    left: 17%;
+    z-index: 4;
+}
