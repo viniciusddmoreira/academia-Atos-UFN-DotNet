@@ -1,0 +1,28 @@
+#ec {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color: blue;  
+  
+}
+
+#eb {
+    position: absolute;
+    top: 95%;
+    left: 2%;
+    background-color: red;
+}
+
+#dc {
+    position: absolute;
+    top: 2%;
+    left: 85%;
+    background-color: purple;
+}
+
+#db {
+    position: absolute;
+    top: 95%;
+    left: 85%;
+    background-color: green;
+}
