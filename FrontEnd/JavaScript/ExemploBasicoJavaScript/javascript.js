@@ -1,4 +1,4 @@
-function ExemploCondicionais() {
+function exemploCondicionais() {
 
     var numero = 1;
     //Comparação normal (compara apenas os valores)
@@ -22,7 +22,7 @@ function ExemploCondicionais() {
     alert(x);
 }
 
-function ExemploSwithCase() {
+function exemploSwithCase() {
 
     var laranja = 6;
     switch (laranja) {
@@ -40,7 +40,7 @@ function ExemploSwithCase() {
     }
 }
 
-function ExemploLacoRepeticaoFor() {
+function exemploLacoRepeticaoFor() {
 
     // FOR - executa um laço um determinado numero de vezes
     var pessoas = ["João", "José", "Maria", "Sebastião", "Antônio"];
@@ -58,7 +58,7 @@ function ExemploLacoRepeticaoFor() {
     alert(nome);
 }
 
-function ExemploLacoRepeticaoWhile() {
+function exemploLacoRepeticaoWhile() {
 
     var resultado = "";
     var numero = 1;
@@ -101,13 +101,13 @@ function exercicio02() {
     alert(soma);
 }
 
-function ExemploNomeEmCaixaAlta() {
+function exemploNomeEmCaixaAlta() {
 
     var nome = document.getElementById("nome");
     nome.value = nome.value.toUpperCase();
 }
 
-function ExemploAlertComNomeDigitado() {
+function exemploAlertComNomeDigitado() {
 
     var nome = document.getElementById("nome");
     alert(nome.value);
