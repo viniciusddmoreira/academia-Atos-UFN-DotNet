@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploBasicoWinForms", "Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoJogadoresWinForms", "GestaoJogadoresWinForms\GestaoJogadoresWinForms.csproj", "{D0832864-158A-4FAB-B7FB-C8B91A9E3635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializacaoWinForms", "SerializacaoWinForms\SerializacaoWinForms.csproj", "{E3472218-D1A1-4D7E-ADB8-0159013D80E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0832864-158A-4FAB-B7FB-C8B91A9E3635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0832864-158A-4FAB-B7FB-C8B91A9E3635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0832864-158A-4FAB-B7FB-C8B91A9E3635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3472218-D1A1-4D7E-ADB8-0159013D80E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3472218-D1A1-4D7E-ADB8-0159013D80E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3472218-D1A1-4D7E-ADB8-0159013D80E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3472218-D1A1-4D7E-ADB8-0159013D80E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
